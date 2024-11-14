@@ -25,7 +25,7 @@ The dataset includes information about games such as:
 - **Pandas, NumPy**: Data analysis
 - **Scikit-learn**: Machine learning model (TF-IDF)
 - **Streamlit**: Web framework for the application
-- **Render/Streamlit Cloud**: Hosting platform
+- **Streamlit Cloud**: Hosting platform
 
 ## 📦 Installation
 
