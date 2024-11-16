@@ -53,7 +53,7 @@ def recommend(game_title):
 
     # Get similarity scores and sort them
     sim_scores = list(enumerate(cosine_sim[idx]))
-    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)[1:11]
+    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)[0:10]
 
     # Prepare recommendations
     recommended_game_names = []
